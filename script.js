@@ -22,7 +22,7 @@ const funFacts = [
   ];
   
   const container = document.getElementById("fun-fact");
-  const randomFact = funFacts[Math.floor(Math.random() * funFacts.length)];   2
+  const randomFact = funFacts[Math.floor(Math.random() * funFacts.length)];   
   
   container.innerHTML = `
     <img src="${randomFact.img}" alt="${randomFact.alt}" />
